@@ -10,10 +10,21 @@ h2 {
 
 }
 
+ul {
+  border-color: black;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+#id {
+  font-family: fantasy;
+}
+
 #links {
   background-color: white;
   padding-left: 10%;
   text-align: left;
+  font-family: monospace;
   font-size: 10 px;
 }
 
