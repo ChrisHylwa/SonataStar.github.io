@@ -1,0 +1,44 @@
+body {
+  background-color: #f4e6ff;
+  font-family: fantasy;
+}
+
+h1 {
+  text-align: center
+}
+
+h2 {
+
+}
+
+p {
+    background-color: white;
+    padding-left: 10%;
+
+}
+
+ul {
+  border-color: black;
+  list-style-type: circle;
+  list-style-position: inside;
+
+}
+
+#description {
+
+}
+
+#links {
+  padding-left: 10%;
+  font-family: monospace;
+  font-size: 10 px;
+}
+
+#copyright {
+    background-color: #f4e6ff;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-left: 0;
+    font-size: 75%;
+}
