@@ -1,4 +1,8 @@
 body {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
   background-color: #f4e6ff;
   font-family: fantasy;
 }
@@ -13,25 +17,33 @@ h2 {
 
 p {
     background-color: white;
-    padding-left: 10%;
-
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 2%;
+    text-indent: inherit;
 }
 
 ul {
-  border-color: black;
   list-style-type: circle;
   list-style-position: inside;
-
 }
 
 #description {
+  text-align: center;
+}
 
+#projects {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2%;
+  padding-right 2%;
 }
 
 #links {
   padding-left: 10%;
   font-family: monospace;
-  font-size: 10 px;
+  font-size: 10px;
 }
 
 #copyright {
