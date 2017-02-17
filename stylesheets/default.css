@@ -60,6 +60,8 @@ a:active {
 
 .nav {
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
 }
@@ -73,6 +75,7 @@ li.link {
   font-family: Lato, sans-serif;
   text-transform: uppercase;
   background-color: white;
+  border-radius: 10px;
   font-weight: 300;
   letter-spacing: 2px;
   padding: 20px 10px;
