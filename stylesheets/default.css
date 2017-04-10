@@ -13,6 +13,7 @@ body {
 h1 {
   text-align: center;
   text-shadow: 2pt;
+  text-decoration: underline;
 }
 
 h2 {
@@ -27,6 +28,10 @@ ul {
 li {
   padding-left: 10px;
   line-height: 30px;
+}
+
+p {
+  padding: 10px 10%;
 }
 
 article {
@@ -76,12 +81,29 @@ li.link {
   text-transform: uppercase;
   background-color: white;
   border-radius: 10px;
+  border: 2px dashed purple;
   font-weight: 300;
   letter-spacing: 2px;
   padding: 20px 10px;
   margin-left: 10px;
   margin-right: 10px;
   display: inline-block;
+}
+
+.content {
+  font-family: Lato, sans-serif;
+  background-color: white;
+  border: 2px dashed purple;
+  border-radius: 10px;
+  margin: 10px 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.game-title {
+  padding: 10px 10%;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 li.complete {
